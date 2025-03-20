@@ -17,3 +17,14 @@
 
     --fonte: "Inter", sans-serif;
 }
+
+/* Estilização Desktop */
+
+body {
+    font-family: var(--fonte);
+    font-size: 14px;
+    background-color: var(--cor-quintaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
