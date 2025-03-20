@@ -95,6 +95,8 @@ body {
     color: var(--cor-quaternaria);
 }
 
+/* Estilização Mobile */
+
 @media (max-width: 380px) {
     .conteudo {
         width: 327px;
