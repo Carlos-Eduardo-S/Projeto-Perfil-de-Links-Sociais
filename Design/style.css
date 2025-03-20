@@ -75,7 +75,6 @@ body {
 .conteudo__lista {
     display: flex;
     flex-direction: column;
-    margin-top: 24px;
     gap: 16px;
     text-align: center;
     width: 304px;
@@ -85,5 +84,5 @@ body {
     text-decoration: none;
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
-    padding: 16px 130px;
+    padding: 16px 0;
 }
