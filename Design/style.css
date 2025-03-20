@@ -56,7 +56,7 @@ body {
 }
 
 .conteudo__nome {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--cor-secundaria);
     margin-bottom: 8px;
@@ -78,7 +78,7 @@ body {
     flex-direction: column;
     gap: 16px;
     text-align: center;
-    width: 304px;
+    width: 315px;
 }
 
 .conteudo__link {
@@ -93,4 +93,20 @@ body {
 .conteudo__link:hover {
     background-color: var(--cor-primaria);
     color: var(--cor-quaternaria);
+}
+
+@media (max-width: 380px) {
+    .conteudo {
+        width: 327px;
+        height: 579px;
+    }
+
+    .conteudo__redes {
+        width: 279px;
+        font-size: 12px;
+    }
+
+    .conteudo__descricao {
+        font-size: 14px;
+    }
 }
