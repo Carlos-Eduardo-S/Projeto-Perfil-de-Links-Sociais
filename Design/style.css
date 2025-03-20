@@ -78,13 +78,12 @@ body {
     margin-top: 24px;
     gap: 16px;
     text-align: center;
-    justify-content: center;
+    width: 304px;
 }
 
 .conteudo__link {
     text-decoration: none;
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
-    margin-bottom: 16px;
     padding: 16px 130px;
 }
