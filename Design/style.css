@@ -40,6 +40,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    border-radius: 20px;
 }
 
 .conteudo__img {
@@ -72,7 +73,7 @@ body {
     font-weight: 400;
 }
 
-.conteudo__lista {
+.conteudo__redes {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -84,5 +85,7 @@ body {
     text-decoration: none;
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
+    font-weight: 600;
     padding: 16px 0;
+    border-radius: 12px;
 }
